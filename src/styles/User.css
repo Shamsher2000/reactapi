@@ -1,0 +1,22 @@
+.usercard{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(231, 158, 158);
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: space-around; 
+}
+.userdiv{
+    margin: 20px;
+    border: 2px solid black;
+}
+.userprofile:hover{
+    cursor: pointer;
+    border: 2px solid black;
+    transform: scale(1.1);
+}
+.userprofile{
+    width: 400px;
+}
